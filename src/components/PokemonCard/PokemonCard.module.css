@@ -1,0 +1,106 @@
+.card {
+  position: relative;
+  display: block;
+  background: #fffefa;
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  overflow: hidden;
+  transition:
+    transform 180ms,
+    box-shadow 180ms;
+}
+
+.favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px #233c330d;
+}
+
+.artwork {
+  position: relative;
+  background: var(--card-color);
+  min-height: 190px;
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+}
+
+.number {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--type-color);
+}
+
+.circle {
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background: #ffffff55;
+  z-index: -1;
+}
+
+.artwork img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-top: 15px;
+  transition: transform 180ms;
+}
+
+.card:hover img {
+  transform: rotate(-4deg) scale(1.06);
+}
+
+.imageFallback {
+  color: var(--type-color);
+  font-size: 11px;
+  text-align: center;
+  padding: 20px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.info h3 {
+  text-transform: capitalize;
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  margin-bottom: 9px;
+  overflow-wrap: anywhere;
+}
+
+.details {
+  display: inline-block;
+  background: var(--card-color);
+  color: var(--type-color);
+  border-radius: 5px;
+  padding: 4px 9px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.arrow {
+  font-size: 20px;
+  color: #8b9789;
+  flex-shrink: 0;
+}

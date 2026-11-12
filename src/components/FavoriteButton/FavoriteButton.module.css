@@ -1,0 +1,40 @@
+.button {
+  width: 40px;
+  height: 40px;
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  border: 1px solid #ffffffbb;
+  border-radius: 50%;
+  background: #fffefaee;
+  color: #6e7d73;
+  cursor: pointer;
+  transition:
+    color 160ms,
+    transform 160ms;
+}
+
+.button svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linejoin: round;
+}
+
+.button:hover {
+  color: #b74661;
+  transform: scale(1.08);
+}
+
+.button[aria-pressed='true'] {
+  color: #b74661;
+}
+
+.button[aria-pressed='true'] svg {
+  fill: currentColor;
+}
+
+.button:focus-visible {
+  outline: 3px solid #a57524;
+  outline-offset: 3px;
+}

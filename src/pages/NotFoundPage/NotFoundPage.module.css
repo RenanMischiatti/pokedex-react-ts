@@ -1,0 +1,42 @@
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #637e4e;
+  margin-bottom: 20px;
+}
+
+.pageTitle {
+  font-size: clamp(30px, 4vw, 44px);
+  letter-spacing: -1.8px;
+  margin-bottom: 12px;
+}
+
+.description {
+  color: var(--color-muted);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 26px;
+  padding: 13px 20px;
+  background: var(--color-accent);
+  color: #fffefa;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background 160ms;
+}
+
+.button:hover {
+  background: #1b4530;
+}

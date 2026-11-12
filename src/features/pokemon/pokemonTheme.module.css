@@ -1,0 +1,89 @@
+.theme {
+  --card-color: #ecebdf;
+  --type-color: #666445;
+}
+
+.theme[data-type='grass'] {
+  --card-color: #e8efdd;
+  --type-color: #4c7345;
+}
+
+.theme[data-type='fire'] {
+  --card-color: #f7e6d9;
+  --type-color: #a85c33;
+}
+
+.theme[data-type='water'] {
+  --card-color: #e1edf6;
+  --type-color: #3b6d94;
+}
+
+.theme[data-type='electric'] {
+  --card-color: #f7efd4;
+  --type-color: #886917;
+}
+
+.theme[data-type='poison'] {
+  --card-color: #eee1f1;
+  --type-color: #82508e;
+}
+
+.theme[data-type='bug'] {
+  --card-color: #edf0d6;
+  --type-color: #697627;
+}
+
+.theme[data-type='flying'] {
+  --card-color: #e9e5f7;
+  --type-color: #70639a;
+}
+
+.theme[data-type='ground'] {
+  --card-color: #f1e6d1;
+  --type-color: #8b6b34;
+}
+
+.theme[data-type='fairy'] {
+  --card-color: #f7e2ed;
+  --type-color: #9e5577;
+}
+
+.theme[data-type='fighting'] {
+  --card-color: #f3ded9;
+  --type-color: #9c4c3a;
+}
+
+.theme[data-type='psychic'] {
+  --card-color: #f5deea;
+  --type-color: #a44871;
+}
+
+.theme[data-type='rock'] {
+  --card-color: #eae5d6;
+  --type-color: #7d6d3a;
+}
+
+.theme[data-type='steel'] {
+  --card-color: #e1e8ed;
+  --type-color: #526c80;
+}
+
+.theme[data-type='ice'] {
+  --card-color: #dff3f2;
+  --type-color: #347d80;
+}
+
+.theme[data-type='ghost'] {
+  --card-color: #e7e1f0;
+  --type-color: #6b528b;
+}
+
+.theme[data-type='dragon'] {
+  --card-color: #e4dff7;
+  --type-color: #6750a5;
+}
+
+.theme[data-type='dark'] {
+  --card-color: #e5e0dc;
+  --type-color: #66564c;
+}
